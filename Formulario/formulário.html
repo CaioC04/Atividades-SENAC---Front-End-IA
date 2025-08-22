@@ -1,0 +1,40 @@
+<form action="/cadastro" method="">
+
+</form>
+
+<!-- <form> Cria um formulario (container) -->
+<!-- action="" um atributo que direciona para algum lugar  -->
+<!-- method="" Diz como os dados do formulário vão. Tipos: 
+     get- Os dados vao na caçamba (Aparecem na URL - Menos seguro)
+     post- Os dados vão dentro do caminhão (Não aparecem na URL - Mais seguro)
+-->
+
+<form action="" method="">
+
+        <label for="">Nome:</label>
+        <input type="text" id="id_nome" placeholder="Digite seu nome" >
+
+        <label for="">Email</label>
+        <input type="email" placeholder="email@email.com">
+
+        <label for=""></label>
+        <input type="date">
+
+        <input type="submit" value="Cadastrar">
+        <button type="submit">Enviar button</button>
+        <button type="reset">Limpar</button>
+
+        <p>
+            <input type="radio" name="genero" value="Masculino"> Masculino
+            <input type="radio" name="genero" value="Feminino"> Feminino
+            <button type="submit">Enviar</button>
+        </p>
+        
+</form>
+
+<!-- label - sugere a informação que queremos -->
+<!-- type define o tipo de informação(text,password,email,data) -->
+<!-- placeholder - define o texto padrão do input -->
+<!-- name - classifica -->
+<!-- radio - seleção -->
+<!-- value - variável -->

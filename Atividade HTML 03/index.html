@@ -1,0 +1,56 @@
+<!DOCTYPE html> <!--Define a versão do HTML-->
+<html lang="pt-br"> <!-- Indica o início do documento HTML -->
+    <head>
+        <meta charset="UTF-8"> <!-- TAG para corrigir acentuação -->
+        <title> Semana de tecnologia </title>
+    </head>
+    <body> <!-- Página -->
+            <header></header> <!-- TAG de cabeçalho -->
+            <main> <!-- Corpo da página -->
+                <form action="" method="post">
+                    <h1>Formulário de inscrição</h1>
+                    <label for="">Nome:</label>
+                    <input type="text" id="nome" placeholder="Digite seu nome">
+                    <label for="">Idade:</label>
+                    <input type="number" id="idade" placeholder=" " min="15" max="60">
+                    <p>
+                        <label for="">Email:</label>
+                        <input type="email" placeholder="email@email.com" id="email">
+                        <label for="">Senha:</label>
+                        <input type="password" placeholder="Digite sua senha" id="senha" minlength="6">
+                    </p>
+                    <p> <h4>Selecione seu gênero:</h4>  </p>
+                    <p>
+                        <input type="radio" name="genero" id="Masculino"> Masculino
+                        <input type="radio" name="genero" id="Feminino"> Feminino
+                        <input type="radio" name="genero" id="Outro"> Outro
+                    </p>
+                    <p>
+                        <h4>Quais são suas áreas de interesse?</h4>
+                        <input type="checkbox" name="interesse"> Programação
+                        <input type="checkbox" name="interesse"> Redes
+                        <input type="checkbox" name="interesse"> Inteligência artificial
+                        <input type="checkbox" name="interesse"> Segurança da informação
+                    </p>
+                    <p>
+                        <h4>Escolha a cidade onde você mora:</h4>
+                        <select name="" id="cidade">
+                            <option value="" hidden>Selecione</option>
+                            <option value="cidade">Niterói</option>
+                            <option value="cidade">Rio de Janeiro</option>
+                            <option value="cidade">São Gonçalo</option>
+                        </select>
+                    </p>
+                        <label for=""><strong>Envie sua foto:</strong></label>
+                        <input type="file" name="foto"> 
+                    
+                        <p> <textarea name="Mensagem" id="mensagem" cols="50" rows="10" placeholder="Digite uma mensagem para os organizadores"></textarea> </p>
+                    <div>                        
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Limpar dados</button>
+                    </div>
+                </form>
+            </main>
+            <footer></footer> <!-- Rodapé -->
+    </body>
+</html>
