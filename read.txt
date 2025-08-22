@@ -1,0 +1,7 @@
+// Subir na branch //
+    git add .
+    git commit -m ""       (Escrever o que foi mudado dentro das aspas)
+    git push
+
+// Puxar da branch //
+    git pull
