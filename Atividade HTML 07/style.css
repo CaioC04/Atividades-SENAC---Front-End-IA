@@ -1,0 +1,43 @@
+.tabela{
+    background-color: rgb(231, 254, 255);
+    margin: auto;
+    width: 1000px;
+}
+
+#head{
+    color: rgb(2, 32, 202);
+    background-color: beige;
+}
+
+#item1{
+    text-align: center;
+    color: rgb(255, 0, 0);
+    
+}
+#item2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    
+}
+#item3{
+    text-align: center;
+    color: rgb(233, 3, 3);
+    
+}
+#item4{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    
+}
+
+th{
+    width: 10vw;
+}
+
+#rodape{
+    text-align: center;
+    height: 30px;
+    padding: 20px;
+    color: rgb(17, 0, 255);
+    background-color: rgb(243, 208, 7);
+}
