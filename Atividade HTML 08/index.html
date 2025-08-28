@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>InovaWeb</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     </head>
     <body>
         <header>
@@ -14,18 +15,56 @@
             
             <nav>
                 <ul class="menu">
-                    <li><a href="#">Página Inicial</a></li>
-                    <li><a href="#">Cursos</a></li>
+                    <li><a href="#pagina-inicial">Página Inicial</a></li>
+                    <li><a href="#cursos">Cursos</a></li>
                     <li><a href="#">Área do aluno</a></li>
                 </ul>
             </nav>
         </header>
-        <main>
-            <section>
 
+        <main>
+            <section class="pagina-inicial" id="pagina-inicial">
+                <div class="quem-somos">
+                    <h2 class="subtitulo">Quem Somos</h2>
+                    <img src="img/banner.jpg" alt="banner" class="banner">
+                    <p class="sub-texto">
+                        A InovaWeb é uma empresa especializada em educação digital, focada em capacitar profissionais para os desafios do mundo tecnológico. Nossa missão é transformar vidas através do conhecimento em programação, design e desenvolvimento web, oferecendo cursos de alta qualidade com metodologias inovadoras.
+                </div>
+                <div class="imagens-area">
+                    <img src="img/imagem da empresa.jpg" alt="Imagem da empresa" class="imagem">
+                    <img src="img/pessoas.jpg" alt="Escritorio" class="imagem">
+                </div>
+            </section>
+
+            <section class="cursos" id="cursos">
+                <h2 class="subtitulo">Cursos</h2>
+                <div class="cursos-area">
+                    <div class="bloco">
+                        <i class="fab fa-python"></i>
+                       <div class="curso-ft">
+                            <p class="curso-nome">Curso de Python Básico</p>
+                            <a href=""><button class="comprar">QUERO SER ALUNO</button></a>
+                        </div>
+                    </div>
+                    <div class="bloco">
+                        <i class="fa-brands fa-css3"></i>
+                       <div class="curso-ft">
+                            <p class="curso-nome">Curso de CSS Básico</p>
+                            <a href=""><button class="comprar">QUERO SER ALUNO</button></a>
+                        </div>
+                    </div>
+                    <div class="bloco">
+                        <i class="fab fa-java"></i>
+                       <div class="curso-ft">
+                            <p class="curso-nome">Curso de Java Básico</p>
+                            <a href=""><button class="comprar">QUERO SER ALUNO</button></a>
+                        </div>
+                    </div>
+                </div>
             </section>
         </main>
-    
-    
+        <footer>
+            <h2>@Desenvolvido por Caio</h2>
+        </footer>
     </body>
 </html>
