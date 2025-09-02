@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Grid Master</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Introdução ao CSS Grid</h1>
+        </header>
+        <main>
+
+            <section>
+                <h2>O que é CSS Grid?</h2>
+                <p>CSS Grid é um sistema de layout bidimensional que permite organizar elementos em linhas e colunas de forma precisa e flexível. Diferente do Flexbox, que é unidimensional (linha ou coluna), o Grid facilita layouts complexos.</p>
+            </section>
+        
+            <section>
+                <h2>Propriedades principais</h2>
+                <p>Algumas propriedades importantes do container:</p>
+                <ul>
+                    <li><code>display: grid;</code> - transforma o container em grid.</li>
+                    <li><code>grid-template-columns</code> e <code>grid-template-rows</code> - definem a quantidade e tamanho de colunas e linhas.</li>
+                    <li><code>gap</code> - define o espaçamento entre os itens.</li>
+                    <li><code>align-items</code> e <code>justify-items</code> - alinham itens dentro das células.</li>
+                </ul>
+                <p>Exemplo visual:</p>
+                <div class="grid-example">
+                    <div>Item 1</div>
+                    <div>Item 2</div>
+                    <div>Item 3</div>
+                    <div>Item 4</div>
+                    <div>Item 5</div>
+                    <div>Item 6</div>
+                </div>
+            </section>
+        
+            <section>
+                <h2>Comparação com Flexbox</h2>
+                <p>Embora Flexbox seja ótimo para layouts em linha ou coluna, o CSS Grid é mais poderoso para organizar elementos em duas dimensões.</p>
+                <div class="comparaçao">
+                    <div>
+                    <h3>Flexbox</h3>
+                    <p>Ótimo para layouts unidimensionais.</p>
+                    </div>
+                    <div>
+                    <h3>CSS Grid</h3>
+                    <p>Ideal para layouts bidimensionais, linhas e colunas.</p>
+                    </div>
+                </div>
+            </section>
+        
+            <section>
+                <h2>Dicas e melhores práticas</h2>
+                <ul>
+                    <li>Combine CSS Grid com Flexbox para layouts complexos.</li>
+                    <li>Use <code>fr</code> para dividir o espaço de forma proporcional.</li>
+                    <li>Evite definir muitas linhas e colunas fixas; use auto-fit e auto-fill.</li>
+                    <li>Teste a responsividade usando media queries.</li>
+                </ul>
+            </section>
+        
+        </main>
+    </body>
+</html>
