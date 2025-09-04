@@ -1,67 +1,52 @@
-*{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
-}
 
-body{
-    background-color: #b1b1b1;
-}
 
-@media screen and (min-width: 800px) {
+@media screen and (max-width: 799px) {
 
 header{
-    border-top: #E4B84B solid 10px;
-    border-bottom: #E4B84B solid 3px;
+    border-top: #E4B84B solid 0.2rem;
+    border-bottom: #E4B84B solid 0.1rem;
     background-color: #0d1f31;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    padding: 0 30px;
-    height: 80px;
+    justify-content: center;
+    height: 2em;
     position: fixed;
     top: 0;
     width: 100%;
-    margin-bottom: 10rem;
 }
 
 .logo-area{
-    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
 }
 
 .logo{
-    width: 150px;
     display: flex;
-    text-align: center;
-    padding: 0px;
-
+    width: 3rem;
+    height: 3rem;
 }
 
-nav{
-    margin-right: 3rem;
-}
 
 .menu{
-    width: 70%;
-    display: inline;
-    list-style: none;
+    display: flex;
     align-items: center;
-    justify-content: flex-end;
+    gap: 2rem;
+    height: 1rem;
+    background-color: rgb(255, 17, 0);
 }
 
 li{
-    display: inline;
-    padding: 5px;
-    font-size: 17px;
-    background-color: #d4a843;
+    display: flex;
+    width: 10   0rem;
+    font-size: 20%;
 }
 
 
 .menu a {
     display: inline-block;
-    padding: 10px 20px;
-    font-size: 17px;
+    font-size: auto;
     background-color: #E4B84B;
     border-bottom: #91742d solid 2px;
     color: #0d1f31;
