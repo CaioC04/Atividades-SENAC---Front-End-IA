@@ -14,4 +14,4 @@ function f1(){
         document.getElementById("teste").innerHTML += " " + i;
         console.log(i);
     }
-}
+}                                                                                                                          
